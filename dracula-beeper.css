@@ -8,9 +8,9 @@ body {
 
   /* Dark Theme */
   --dracula-background: 231, 15%, 18%;
-  --dracula-text-primary: 0, 0%, 100%;
-  --dracula-text-heading: 0, 0%, 95%;
-  --dracula-text-secondary: 0, 0%, 66%;
+  --dracula-text-primary: 60, 30%, 96%;
+  --dracula-text-heading: 60, 30%, 96%;
+  --dracula-text-secondary: 60, 30%, 96%;
 
   --dracula-gray-1: 0, 0%, 9%;
   --dracula-gray-2: 0, 0%, 15%;
