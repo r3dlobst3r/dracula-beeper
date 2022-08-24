@@ -1,13 +1,13 @@
 
 body {
-  --dracula-hue: 335; /* Enter values between 0 and 359 to change the color of the theme. */
-
-  --dracula-accent: var(--dracula-hue), 100%, 38%;
-  --dracula-highlight: var(--dracula-hue), 100%, 60%;
-  --dracula-complement: calc(var(--dracula-hue) - 50), 100%, 28%;
+/* Please make sure to uncomment the color accent you would like to use */
+  /* Pink */
+  --dracula-accent: 326, 100%, 73%;
+  --dracula-highlight: 326, 100%, 73%;
+  --dracula-complement: 326, 100%, 73%;
 
   /* Dark Theme */
-  --dracula-background: 0, 0%, 0%;
+  --dracula-background: 231, 15%, 18%;
   --dracula-text-primary: 0, 0%, 100%;
   --dracula-text-heading: 0, 0%, 95%;
   --dracula-text-secondary: 0, 0%, 66%;
