@@ -1,9 +1,10 @@
+
 body {
   --dracula-hue: 335; /* Enter values between 0 and 359 to change the color of the theme. */
 
-  --dracula-accent: var(--metrology-hue), 100%, 38%;
-  --dracula-highlight: var(--metrology-hue), 100%, 60%;
-  --dracula-complement: calc(var(--metrology-hue) - 50), 100%, 28%;
+  --dracula-accent: var(--dracula-hue), 100%, 38%;
+  --dracula-highlight: var(--dracula-hue), 100%, 60%;
+  --dracula-complement: calc(var(--dracula-hue) - 50), 100%, 28%;
 
   /* Dark Theme */
   --dracula-background: 0, 0%, 0%;
@@ -224,7 +225,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Avatars */
 
 .bp_Avatar_bg_1, .bp_Avatar_bg_2, .bp_Avatar_bg_3 {
-  background: linear-gradient(160deg,hsl(var(--dracula-gray-3)) 0%,hsl(var(--metrology-gray-2)) 100%)
+  background: linear-gradient(160deg,hsl(var(--dracula-gray-3)) 0%,hsl(var(--dracula-gray-2)) 100%)
 }
 
 .mx_BaseAvatar_initial {
@@ -358,7 +359,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Room Header */
 
 .mx_RoomHeader {
-  background: linear-gradient(to bottom, hsl(var(--dracula-background)), hsla(var(--metrology-background),.25));
+  background: linear-gradient(to bottom, hsl(var(--dracula-background)), hsla(var(--dracula-background),.25));
   backdrop-filter: blur(10px);
   box-shadow: none;
   /* box-shadow: 0 12px 20px hsla(var(--dracula-gray-6), .5); */
@@ -430,7 +431,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mx_EventTile_messageOut .mx_EventTile_line {
-  background: linear-gradient(145deg,hsl(var(--dracula-accent)) 3%,hsl(var(--metrology-complement)) 97%);
+  background: linear-gradient(145deg,hsl(var(--dracula-accent)) 3%,hsl(var(--dracula-complement)) 97%);
   color: hsl(var(--dracula-text-primary));
 }
 
@@ -583,7 +584,7 @@ hr.mx_RoomView_myReadMarker {
 /* Message Composer */
 
 .mx_MessageComposer {
-  background: linear-gradient(to bottom, hsla(var(--dracula-background),.5), hsl(var(--metrology-background)));
+  background: linear-gradient(to bottom, hsla(var(--dracula-background),.5), hsl(var(--dracula-background)));
   backdrop-filter: blur(10px);
 }
 
@@ -608,7 +609,7 @@ hr.mx_RoomView_myReadMarker {
 }
 
 .mx_MessageComposer_send {
-  background: linear-gradient(160deg, hsl(var(--dracula-complement)) 3%, hsl(var(--metrology-accent)) 128.02%);
+  background: linear-gradient(160deg, hsl(var(--dracula-complement)) 3%, hsl(var(--dracula-accent)) 128.02%);
   background-clip: text;
   text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -625,7 +626,7 @@ hr.mx_RoomView_myReadMarker {
 }
 
 .mx_HomePage_default .mx_HomePage_default_buttons .mx_AccessibleButton {
-  background: linear-gradient(160deg,hsl(var(--dracula-accent)) 3%,hsl(var(--metrology-complement)) 128.02%);
+  background: linear-gradient(160deg,hsl(var(--dracula-accent)) 3%,hsl(var(--dracula-complement)) 128.02%);
 }
 
 .mx_JumpToBottomButton {
@@ -663,7 +664,7 @@ hr.mx_RoomView_myReadMarker {
 }
 
 .mx_SearchBar {
-  background: linear-gradient(to bottom, hsl(var(--dracula-background)), hsla(var(--metrology-background),.25));
+  background: linear-gradient(to bottom, hsl(var(--dracula-background)), hsla(var(--dracula-background),.25));
   backdrop-filter: blur(10px);
 }
 
@@ -924,3 +925,5 @@ hr.mx_RoomView_myReadMarker {
   color: hsl(var(--dracula-text-primary));
   box-shadow: 0 4px 12px 0px hsla(var(--dracula-shadow));
 }
+
+
